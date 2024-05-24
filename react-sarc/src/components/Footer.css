@@ -1,0 +1,141 @@
+.Footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+}
+  
+.FooterContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    flex-wrap: wrap;
+}
+
+.LogoAndName {
+    display: flex;
+    align-items: left;
+}
+
+.FooterLogo img {
+    width: 100px;
+    height: auto;
+}
+
+.SARC {
+    margin: 0;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.SARCHeading {
+    margin: 0;
+    margin-top: 20px;
+}
+.SARCSubheading {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.NameandSubscribe {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.FooterSubscribe {
+    text-align: left;
+    margin-bottom: 2px;
+}
+.SubscribeBox {
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+}
+  
+.SubscribeBox input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+}
+  
+.SubscribeButton {
+    background-color: white;
+    color: #333;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.SubscribeButton:hover {
+    background-color: #333;
+    color: white;
+}
+
+.FooterHeading {
+    font-weight: bold;
+}
+
+.FooterLinks {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.FooterLinks li {
+    margin-bottom: 0.5rem;
+}
+
+.FooterLink {
+    color: white;
+    text-decoration: none;
+    transition: border-bottom 0.2s ease;
+}
+  
+.FooterLink:hover {
+    border-bottom: 1px solid white;
+}
+
+.FooterForm {
+    display: flex;
+}
+
+.FooterContact,
+.FooterSocial {
+    width: 45%;
+    margin-top: 2rem;
+}
+
+.FooterContact {
+    margin: 0;
+    text-align: left;
+}
+
+.FooterSocial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: inline;
+}
+
+.FooterSocialHeading {
+    font-weight: bold;
+    margin-top: 5rem;
+}
+.FooterSocialLinks {
+    list-style-type: none;
+    padding: 0;
+}
+
+.FooterSocialLinks li {
+    margin-bottom: 0.5rem;
+    display: inline;
+    padding: 0.5vw 2vw;
+    cursor: pointer;
+}
+  
+.FooterSocialLinks li:hover {
+    border: 2px solid white;
+    border-radius: 40px;
+}

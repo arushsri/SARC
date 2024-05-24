@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    z-index: 1; /* Ensure content is above video */
+}
+  
+.heading {
+    font-size: 5rem;
+    margin-top: 16px;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+}
+
+.subheading {
+    color: white;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #32af92;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: white;
+    color: #32af92;
+}
+
+.videoBackground {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+  
+.videoBackground video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.AboutSARC {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+}
+  
+.SARCText {
+    text-align: left;
+}
+  
+.SARCFullForm {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+  
+.SARCSubText {
+    font-size: 1rem;
+    color: #666;
+}
+  
+img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 2rem;
+}
+  
